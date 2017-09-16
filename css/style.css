@@ -308,7 +308,6 @@
     /* bennar Section CSS */
 
     .header-image {
-        padding-bottom: 120px;
         padding-top: 60px;
     }
 
@@ -362,7 +361,7 @@
     }
 
     .scrolldown {
-        padding-top: 24px;
+        padding-top: 60px;
     }
 
     #bgimage .scroll_btn {
