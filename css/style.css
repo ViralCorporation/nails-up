@@ -167,8 +167,9 @@
     }
 
     .btn:hover {
-        background-color: #e0356e;
-        color: #fff;
+        border: 1px solid #FFC107;
+        background-color: ;
+        color: #FFC107;
         text-decoration: none;
     }
 
@@ -192,13 +193,13 @@
     }
 
     .white-btn:hover {
-        background: #e0356e;
-        color: #fff;
+        background: rgba(0,0,0,0);
+        color: #FFC107;
         text-decoration: none;
     }
 
     .pink-btn {
-        background: #e0356e;
+        background: #ea1e1e;
         border: none;
         margin-left: 10px;
     }
@@ -212,7 +213,7 @@
     .btn-sm {
         width: 160px;
         height: 38px;
-        background: #FF3366;
+        background: #ea1e1e;
         color: #fff;
         font-size: 18px;
         display: inline-block;
@@ -233,6 +234,14 @@
         width: 70%;
         margin-top: -12px;
     }
+.navbar-default .navbar-brand:hover{
+    background: url(/images/logo2.png);
+
+}
+.navbar-default .navbar-brand:hover{
+    background: url(/images/logo2.png);
+
+}
 
     .main-menu {
         background-color: transparent;
@@ -274,7 +283,7 @@
     }
 
     .main-menu.tiny .navbar-nav>li.active>a {
-        color: #FF3366;
+        color: #ea1e1e;
     }
 
     .navbar-default .navbar-nav>.active>a,
@@ -285,7 +294,7 @@
     }
 
     .main-menu .navbar-nav>li>a:hover {
-        color: #E03561;
+        color: #FFC107;
     }
 
     .main-menu .navbar-nav>.active>a,
@@ -345,8 +354,8 @@
     }
 
     .heading-text .button a:hover i {
-        border: 1px solid #fff;
-        color: #fff;
+        border: 1px solid #FFC107;
+        color: #FFC107;
     }
 
     .heading-text h1 {
@@ -417,8 +426,8 @@
     }
 
     .single_works_text:hover i {
-        color: #FF3366;
-        border: 1px solid #FF3366;
+        color: #ea1e1e;
+        border: 1px solid #ea1e1e;
     }
     /* works_2 */
 
@@ -435,8 +444,8 @@
     }
 
     .single_works_2_text:hover i {
-        color: #FF3366;
-        border: 1px solid #FF3366;
+        color: #ea1e1e;
+        border: 1px solid #ea1e1e;
     }
 
     .single_works_2_text i {
@@ -470,7 +479,7 @@
 
     .right_single_bottom_text i {
         font-size: 35px;
-        color: #FF3366;
+        color: #ea1e1e;
         float: left;
         width: 35px;
     }
@@ -491,13 +500,13 @@
 
     .second_single_text i {
         font-size: 35px;
-        color: #FF3366;
+        color: #ea1e1e;
         float: left;
     }
     /* video Icon Section */
 
     .video_overlay {
-        background: rgba(245, 90, 138, 0.76);
+        background: rgba(189, 48, 80, 0.6);;
     }
 
     #video_icon {
@@ -584,7 +593,7 @@
     }
 
     .economy_table {
-        border: 1px solid #FF3366;
+        border: 1px solid #ea1e1e;
         position: relative;
     }
 
@@ -592,7 +601,7 @@
         content: "Popular";
         right: 0;
         top: 40px;
-        background: #FF3366;
+        background: #ea1e1e;
         color: #fff;
         position: absolute;
         padding: 3px 10px;
@@ -747,7 +756,7 @@
         width: 15%;
         padding: 14px;
         margin-left: -4px;
-        background: #FF3366;
+        background: #ea1e1e;
         border-radius: 0px 6px 6px 0px;
         border: 0px transparent;
         color: #fff;
@@ -772,7 +781,7 @@
     }
 
     #message h2 {
-        color: #e0356e;
+        color: #ea1e1e;
         padding-bottom: 24px;
     }
 
@@ -781,7 +790,7 @@
     }
 
     #message .larg-btn {
-        background: #e0356e;
+        background: #ea1e1e;
         border: none;
         text-transform: none;
         margin-top: 24px;
@@ -820,7 +829,7 @@
     .socail_bookmark a:hover i {
         color: #fff;
         border: 1px solid #fff;
-        background: #FF3366;
+        background: #ea1e1e;
         transform: scale(1.2);
     }
 
