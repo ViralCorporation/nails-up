@@ -119,6 +119,10 @@ html {
         color: #585b60;
     }
 
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
     h1 {
         font-size: 3.5rem;
         line-height: 50px;
@@ -398,7 +402,6 @@ html {
         bottom: 0;
         padding-top: 250px;
         font-size: 14px;
-        font-family: "Cinzel";
         text-align: center;
         height: 100%;
     }
