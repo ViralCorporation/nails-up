@@ -1,7 +1,17 @@
-    html {
+/* Fonts */
+
+@font-face {
+    font-family: "Cinzel";
+    src: url('fonts/cinzel.otf') format('truetype');
+}
+
+
+html {
         width: 100%;
         overflow-x: hidden;
     }
+
+
 
     body {
         color: #767676;
@@ -14,6 +24,18 @@
         position: inherit;
     }
 
+    a{
+        color: #E03561;
+    }
+
+    span{
+        color: white;
+    }
+
+
+    i{
+        color: #ea1e1e
+    }
     .cellphone {
         position: absolute;
         top: 5%;
@@ -101,14 +123,13 @@
         font-size: 3.5rem;
         line-height: 50px;
         font-weight: 600;
-        font-family: "Myriad Pro", sans-serif;
+        font-family: "Cinzel";
     }
 
     h2 {
         font-size: 2.5rem;
         line-height: 38px;
         font-weight: 600;
-        font-family: "Myriad Pro", sans-serif;
         margin: 0;
     }
 
@@ -310,6 +331,10 @@
         border: none;
     }
 
+    .container{
+        height: 65vh;
+    }
+
     .navbar>.container .navbar-brand,
     .navbar>.container-fluid .navbar-brand {
         margin-top: 20px;
@@ -333,7 +358,7 @@
         -o-background-size: cover;
         background-size: cover;
         background-attachment: fixed;
-        height: 100%;
+        height: 100vh;
         overflow: hidden;
     }
 
@@ -370,7 +395,12 @@
     }
 
     .scrolldown {
+        bottom: 0;
         padding-top: 250px;
+        font-size: 14px;
+        font-family: "Cinzel";
+        text-align: center;
+        height: 100%;
     }
 
     #bgimage .scroll_btn {
